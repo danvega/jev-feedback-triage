@@ -1,0 +1,23 @@
+### Angry billing problem
+POST http://localhost:8080/triage
+Content-Type: application/json
+
+{
+  "message": "I was charged twice this month and nobody has answered my emails. Fix this today or I'm cancelling."
+}
+
+### Technical question, not urgent
+POST http://localhost:8080/triage
+Content-Type: application/json
+
+{
+  "message": "Hi! When you get a chance, how do I export my data to CSV? No rush."
+}
+
+### Happy customer who wants to buy more
+POST http://localhost:8080/triage
+Content-Type: application/json
+
+{
+  "message": "Love the product! Our team is growing and we'd like 20 more seats. Who can I talk to about pricing?"
+}

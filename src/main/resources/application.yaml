@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: jev-feedback-triage
+
+typesafe:
+  api-key: ${TYPESAFE_API_KEY}
